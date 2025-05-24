@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About ALS</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/Nv9Pj9CvCacPJAbX9" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			What is ALS - Alternative Learning System?
+		</h2>
+		<p>The Alternative Learning System in the Philippines is a parallel learning system designed for out-of-school youth and adults who haven't completed formal education. </p>
+		<p>It offers a chance for them to develop basic and functional literacy skills, access equivalent pathways to basic education, and ultimately improve their lives. </p>
+		<p>ALS includes both non-formal and informal sources of knowledge and skills, making it a flexible and accessible option. </p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Key Aspects of the ALS</h1>
+		<p>ALS serves as a means for informal and busy students to achieve elementary and high school education without the need to attend daily classroom instructions. </p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Target: </h3>
+				<p>Out-of-school youth and adults or OSYA who are unable to access or have dropped out of formal education. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Purpose: </h3>
+				<p>To provide a "second chance" for OSYA to complete basic education, develop essential skills, and improve their quality of life. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Curriculum: </h3>
+				<p>ALS has its own ALS K to 12 curriculum, which is streamlined but aligned with the formal K to 12 curriculum. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Delivery Methods: </h3>
+				<p>ALS can be delivered through school-based and community-based programs, offering flexible learning options. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Components: </h3>
+				<p>Basic Literacy Program or BLP: Focuses on literacy skills for reading, writing, and numeracy. </p>
+				<p>Continuing Education Program - Accreditation and Equivalency or CEP A&E: Provides an assessment of learner competencies, leading to a certificate equivalent to that received by graduates of the formal education system. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Implementation: </h3>
+				<p>ALS program are implemented by DepEd-Delivered, DepEd-procured, and DepEd-partners including ALS teachers, district coordinators, and non-government organizations. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Benefits: </h3>
+				<p>Access to Formal Education: ALS provides a pathway for OSYA to complete basic education and continue their studies. </p>
+				<p>Development of Skills: ALS helps individuals develop essential literacy and life skills, enhancing their employability and readiness for work. </p>
+				<p>Improved Quality of LifeL By gaining education and skills, participants can improve their economic and social well-being.</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>ALSMG@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel #011-121-997</li>
+			<li>Phone #0908-480-1960</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li> <a href="https://www.google.com/maps/place/Manolo+Fortich+Central+Elementary+School/@8.3681119,124.8617783,17z/data=!4m14!1m7!3m6!1s0x32ffbdf8cf91c3d3:0xe0342425968ac717!2sManolo+Fortich+Central+Elementary+School!8m2!3d8.3681066!4d124.8643532!16s%2Fg%2F11b6x49crx!3m5!1s0x32ffbdf8cf91c3d3:0xe0342425968ac717!8m2!3d8.3681066!4d124.8643532!16s%2Fg%2F11b6x49crx?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"> ALS Manolo Fortich 1 Maps</a></li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2025 All rights reserved | This template is made by Rueena Paula Tirol</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

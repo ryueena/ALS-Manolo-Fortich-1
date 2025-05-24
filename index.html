@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALS MANOLO FORTICH 1</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/Nv9Pj9CvCacPJAbX9" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			Manolo Fortich 1 Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+		<div class="btn">
+			<a href="https://forms.gle/Nv9Pj9CvCacPJAbX9" class="yellow">ENROLL NOW</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS Learning Modalities</h1>
+		<p>The ALS offers a variety of learning modalities and programs to cater to diverse learners.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Face-to-Face Learning Sessions:</h3>
+				<p>Traditional classroom learning with a teacher. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Independent/House Study:</h3>
+				<p>Self-paced learning using modules. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>eSkwela/e-Learning:</h3>
+				<p>Online learning platforms for digital learning. </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Community ALS Implementers</h1>
+		<p>Individuals engaged by DepEd or LGUs to deliver ALS programs</p>
+		
+		<div class="expert-box">
+			<div class="profile">
+				<img src="img/paula.jpg" height="200" width="200" alt="Miss Pau">
+				<h6>Rueena Paula Tirol</h6>
+				<p>Academics</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"><a href="https://www.facebook.com/eanah.ryu">@Rueena Paula Tirol</a></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/ari.jpg" height="200" width="200" alt="Miss Ari">
+				<h6>Ariana Grande</h6>
+				<p>Music & Arts</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"><a href="https://www.facebook.com/arianagrande">@Ariana Grande</a></i>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>ALSMG@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel #011-121-997</li>
+			<li>Phone #0908-480-1960</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li> <a href="https://www.google.com/maps/place/Manolo+Fortich+Central+Elementary+School/@8.3681119,124.8617783,17z/data=!4m14!1m7!3m6!1s0x32ffbdf8cf91c3d3:0xe0342425968ac717!2sManolo+Fortich+Central+Elementary+School!8m2!3d8.3681066!4d124.8643532!16s%2Fg%2F11b6x49crx!3m5!1s0x32ffbdf8cf91c3d3:0xe0342425968ac717!8m2!3d8.3681066!4d124.8643532!16s%2Fg%2F11b6x49crx?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"> ALS Manolo Fortich 1 Maps</a></li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2025 All rights reserved | This template is made by Rueena Paula Tirol</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
